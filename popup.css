@@ -1,0 +1,10 @@
+#selection {
+    position: absolute;
+    background: transparent;
+    border: 1px solid #0c65a5;
+}
+
+#selection.complete {
+    background: transparent;
+    border-color: #0CA50E;
+}

@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Quick Capture",
+    "description": "This extension will allow the user to take a screenshot",
+    "version": "1.2",
+    "content_scripts": [
+        {
+            "css": ["popup.css"],
+            "js": ["https://code.jquery.com/jquery-3.2.1.min.js", "popup.js"]
+        }
+      ],
+    "browser_action": {
+     "default_icon": "icon.png",
+     "default_popup": "popup.html"
+    },
+    "permissions": [
+     "activeTab"
+     ]
+  }
